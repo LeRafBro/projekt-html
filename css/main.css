@@ -1,0 +1,23 @@
+.tabelki {
+  background: #141414;
+  height: 400px;
+  max-width: 1500px;
+  display: flexbox;
+}
+
+.title2 {
+  font-family:
+    "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, Tahoma, Geneva, Verdana,
+    sans-serif;
+  color: #e50914;
+}
+
+#games {
+  width: 200px;
+  height: 300px;
+}
+
+img:hover {
+  scale: 115%;
+  transition: 5ms;
+}
