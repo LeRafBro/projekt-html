@@ -1,6 +1,21 @@
+body {
+  background: darkgrey;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: rgb(16, 98, 98);
+  padding: 15px;
+  align-items: center;
+}
+
 .tabelki {
   background: #141414;
-  height: 400px;
+  height: 450px;
   max-width: 1500px;
   display: flexbox;
 }
@@ -12,9 +27,14 @@
   color: #e50914;
 }
 
-#games {
+#assets {
   width: 200px;
   height: 300px;
+}
+
+#albums {
+  height: 280px;
+  width: 280px;
 }
 
 img:hover {
