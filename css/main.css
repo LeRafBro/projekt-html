@@ -5,7 +5,7 @@ body {
 }
 
 .tabelki {
-  background: #141414;
+  background: gray;
   height: 450px;
   width: auto;
   max-width: 1500px;
@@ -15,6 +15,7 @@ body {
 #albums {
   height: 280px;
   width: 280px;
+  max-width: 100%;
 }
 
 img:hover {
@@ -27,18 +28,18 @@ img:hover {
   justify-content: center;
 }
 
-.tabelki {
-  background: #141414;
-  height: 450px;
-  max-width: 1500px;
-  display: flexbox;
-}
-
 .title2 {
   font-family:
     "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, Tahoma, Geneva, Verdana,
     sans-serif;
   color: #e50914;
+}
+
+p {
+  font-family:
+    "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, Tahoma, Geneva, Verdana,
+    sans-serif;
+  color: black;
 }
 
 .container {
