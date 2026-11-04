@@ -1,7 +1,6 @@
 body {
   font-family: Arial, sans-serif;
   background: gray;
-  padding: 40px;
 }
 
 .tabelki {
@@ -16,16 +15,12 @@ body {
   height: 280px;
   width: 280px;
   max-width: 100%;
+  align-items: center;
 }
 
 img:hover {
   scale: 115%;
-  transition: 5ms;
-}
-
-#main {
-  display: flex;
-  justify-content: center;
+  transition: 0.3s;
 }
 
 .title2 {
