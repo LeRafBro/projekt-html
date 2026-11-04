@@ -1,10 +1,10 @@
 body {
   font-family: Arial, sans-serif;
-  background: gray;
+  background: darkgray;
 }
 
 .tabelki {
-  background: gray;
+  background: darkgray;
   height: 450px;
   width: auto;
   max-width: 1500px;
