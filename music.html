@@ -3,32 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Music Catalouge</title>
+    <title>Music Catalogue</title>
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./music.js" />
+    <script src="./music.js" defer></script>
   </head>
   <body>
-    <div class="music tabelki">
-      <h1 class="title2">MUSIC</h1>
-      <p id="message">
-        for adding favourites, please add them directly inside the codes
+    <header class="hero">
+      <h1 class="page-title">MUSIC</h1>
+      <p class="note">
+        To add favourites, please add them directly inside the code.
       </p>
-      <img src="./assets/album1.jpg" id="albums" alt="album photo" />
-      <img src="./assets/album2.jpg" id="albums" alt="album photo" />
-    </div>
-    <div class="search-container">
-      <input
-        type="text"
-        id="searchInput"
-        placeholder="Enter album or artist..."
-      />
+      <div class="featured">
+        <img
+          src="./assets/album1.jpg"
+          class="featured-img"
+          width="280"
+          height="280"
+          alt="Featured album cover 1"
+        />
+        <img
+          src="./assets/album2.jpg"
+          class="featured-img"
+          width="280"
+          height="280"
+          alt="Featured album cover 2"
+        />
+      </div>
+    </header>
 
-      <button id="searchButton">Search</button>
-    </div>
+    <main>
+      <form class="search-form" id="searchForm" role="search">
+        <label for="searchInput" class="visually-hidden">
+          Album or artist
+        </label>
+        <input
+          type="search"
+          id="searchInput"
+          placeholder="Enter album or artist..."
+          autocomplete="off"
+          required
+        />
+        <button type="submit" id="searchButton">Search</button>
+      </form>
 
-    <p id="message"></p>
+      <p id="status" class="status" role="status" aria-live="polite"></p>
 
-    <div id="results"></div>
-    <script src="music.js"></script>
+      <section
+        id="results"
+        class="results"
+        aria-label="Search results"
+      ></section>
+    </main>
   </body>
 </html>
